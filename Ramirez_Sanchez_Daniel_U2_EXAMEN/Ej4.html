@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej4</title>
+</head>
+<body>
+    <form action="">
+        <table style="border: 3px solid blue;">
+            <thead>
+                <th><h1>Reservation Request</h1></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        
+                        <fieldset><legend>General Information</legend>
+                            <p><label for="arrivaldate">Arrival Date:</label>
+                            <input type="date" name="arrivaldate" id="arrivaldate"></p>
+                            <p><label for="nights">Nights:</label>
+                            <input type="number" name="nights" id="nights"></p>
+                            <p><label for="adults">Adults:</label>
+                            <select name="adults" id=adults>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select></p>
+                            <p><label for="children">Children:</label>
+                                <select name="children" id=children>
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select></p>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <legend>Prefences</legend>
+                            <p><label for="roomtype">Room type:</label>
+                            <input type="radio" name="roomtype" id="Standard" checked>Standard
+                            <input type="radio" name="roomtype" id="business">business
+                            <input type="radio" name="roomtype" id="suite">Suite
+                            </p>
+                            <p>
+                            <label for="bedtype">deb type:</label>
+                            <input type="radio" name="bedtype" id="king" checked>king
+                            <input type="radio" name="bedtype" id="doubleking">Double king
+                            </p>
+                            <p>
+                                <label for="Smoking">Smoking</label>
+                                <input type="checkbox" name="Smoking" id="Smoking">
+                            </p>
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <legend>Contact Information</legend>
+                            <p><label for="name">Name</label>
+                            <input type="text" name="name" id="name" required> 
+                            </p>
+                            <p>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                            </p>
+                            <p>
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone">
+                            </p>
+                        </fieldset>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th>
+                    <button type="submit">Submit Reservation</button>
+                    <button type="reset">Clear</button>
+                </th>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>
