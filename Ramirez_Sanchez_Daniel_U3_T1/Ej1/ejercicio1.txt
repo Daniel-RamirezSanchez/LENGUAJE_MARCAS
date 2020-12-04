@@ -1,0 +1,23 @@
+Ejercicio 1:
+
+a.- Crea una carpeta llamada 'ej1'
+
+b.- Descarga y extrae el fichero indicado anteriormente
+
+c.- Abre el archivo poema.html en el explorador.
+
+d.- Abre el archivo poema.html y estilos.css con un editor 
+
+e.- Estudia, analiza y comprende cada uno de los comportamientos de los elementos definidos en la hoja de estilos.
+
+Describe los elementos de la hoja de estilos. Para ello utiliza los apuntes o cualquiera de las referencias propuestas. Hacerlo en el fichero ejercicio1.txt que debes dejar en esa carpeta.
+
+El elemento "body {background-color: tan}" su usa para darle color a todo el cuerpo de la página.
+"h1 {color:maroon; font-size:20pt}" en caso estamos dando un color de letra (marron) y un tamaño de letra(20 pt) a todos los h1 del HTML.
+"hr {color:navy}" lo usamos para darle color (azul marino) a todos los hr del documento. 
+"p {font-size:12pt; margin-left: 15px}" lo usamos para indicar que todos los párrafos(p) del documento deben tener un tamaño de letra de 12 pt y un márgen a la izquierda de 15 píxeles.
+"p.verse {color:maroon; margin-left: 60px}" aqui nos referimos unicamente a los párrafos de la clase "verse" que deben tener un color de letra marrón y un mágen a la izquierda de 60px.
+"a:link     {color:green}" le damos un color de letra verde al enlace que no ha sido visitado por el usuario.
+"a:visited  {color:yellow}" le damos un color de letra amarillo al enlace una vez que ha sido visitado.
+"a:hover    {color:black}" le damos color de letra negra al texto de enlace cuando pasamos el cursor del ratón por encima.
+"a:active   {color:blue}" le damos un color de letra azul al texto del enlace cuando se hace click sobre él.

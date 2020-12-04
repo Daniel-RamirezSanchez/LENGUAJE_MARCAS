@@ -1,0 +1,7 @@
+En una carpeta llamada ej2.
+
+En la versión inglesa (poema.html), ¿por qué los últimos 5 párrafos se muestran de forma diferente que los 2 primeros?. Contestar en el fichero ejercicio2.txt que debes dejar en esa carpeta.
+
+a.- Edita el fichero poema.html para que los últimos 5 párrafos tengan el mismo aspecto que los 2 primeros.
+
+Los 5 últimos párrafos se muestran de forma diferente porque los dos primeros tienen dado un estilo diferente con la clase "verse". ("p.verse {color:maroon; margin-left: 60px}")
