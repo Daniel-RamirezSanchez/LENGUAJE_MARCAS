@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    width: 95%;
+    margin:5px auto;
+    overflow-y: auto;
+}
+
+.cabecera, .menu, .main, .footer{
+    display:block;
+    overflow-y: auto;
+}
+
+/*estilos cabecera*/
+.cabecera{
+    background-color: black;
+    color: white;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+.titulo{
+    float: left;
+    padding-left: 5px;
+}
+
+.login{
+    float: right;
+    position: relative;
+    top: 30px;
+}
+
+/*estilos de menu verde*/
+.menu{
+    background-color:rgb(135, 151, 96);
+    color: white;
+    border-bottom: 3px solid rgb(84, 136, 60);
+}
+
+.menu div{
+    float:left;
+    padding: 0.5em;
+}
+
+/*colocamos caja-izquierda*/
+
+.caja-izquierda{
+    float:left;
+    background-color: lightgrey;
+    border-radius: 5px;
+    overflow-y:auto;
+}
+
+
+.subcaja-izquierda{
+padding: 1em;
+}
+
+/*colocamos caja central*/
+
+.caja-central{
+    background-color: white;
+    float: left;
+    margin: 3em;
+    
+}
+
+.imagen-central{
+    float: left;
+    background-color: white;
+}
+
+.imagen-central img{
+    background-color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.categorias{
+    clear:left;
+    position: relative;
+    width: 100%;
+    float:left;
+    background-color:lightgray;
+    font-weight: bolder;
+    border-bottom: 3px solid grey;
+    margin-bottom: 5px;
+}
+
+.lista{
+    float:left;
+    padding:5px auto;
+    background-color:lightgrey;
+    border-radius:5px;
+    border:3px solid gray;
+    width: 100%;
+    position: relative
+    
+}
+
+.lista img{
+    height: 50%;
+    width: 10%;
+    float: right;
+    position: absolute;
+    top:45%;
+    left: 87%;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    color:rgb(84, 136, 60);
+    font-weight: bold;
+}
+
+span{
+    color: black;
+    font-weight: bolder;
+}
+
+/*colocamos caja derercha*/
+
+.caja-derecha{
+    float: right;
+    background-color: lightgray;
+    border-radius: 5px;
+    overflow-y:auto;
+}
+
+.subcaja-derecha{
+    padding: 1em;
+}
+
+
+.caja-izquierda, .caja-derecha{
+    margin:1em;
+}
+
+/*colocamos el pie de la pagina*/
+
+.footer{
+    background-color: black;
+    color: white;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
