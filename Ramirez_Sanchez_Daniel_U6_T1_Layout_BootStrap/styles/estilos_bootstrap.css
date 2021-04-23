@@ -1,0 +1,55 @@
+*{box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+#prueba , #gratis{
+    font-size: 2.5em;
+    margin:0px auto;
+}
+
+#casa{
+    font-size: 1.5em;
+    margin: 0px auto;
+}
+
+#dias , #equipo{
+    margin: 0px auto;
+}
+
+.formulario{
+    border: 2px solid rgb(75, 75, 75);
+}
+
+h4{
+    margin-top: 0px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+}
+
+.formulario p{
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#Nombre, #Telefono, #Email, #text-area{
+    width: 100%;
+}
+
+#boton{
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(22,99,169,255);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
