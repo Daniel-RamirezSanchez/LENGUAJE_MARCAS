@@ -1,0 +1,77 @@
+.container {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  margin-top: 10px;
+}
+.section .section__list .section__list-item {
+  overflow-y: auto;
+}
+.section .section__list .section__list-item .left {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+.section .section__list .section__list-item .left .name {
+  font-weight: bold;
+}
+.section .section__list .section__list-item .right {
+  width: 50%;
+  float: right;
+  padding: 20px;
+}
+.section .section__list .section__list-item .right .name {
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 10px auto;
+  width: 80%;
+  padding: 30px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+.section-title-1 {
+  color: red;
+}
+
+.section-title-2 {
+  color: green;
+}
+
+.section-title-3 {
+  color: yellow;
+}
+
+.section-title-4 {
+  color: blue;
+}
+
+.full-name {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.section__title {
+  border-bottom: 2px solid black;
+}
+
+.separator {
+  border-left: 2px solid black;
+  margin: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

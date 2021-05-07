@@ -1,0 +1,23 @@
+//colores para letra y color de fondo
+$black: black;
+$lightgrey: rgb(240, 240, 240);
+
+//variable para tema claro u oscuro
+$dark-theme: false;
+$light-theme: true;
+
+.container{
+    @if $light-theme == true {
+      background-color: $lightgrey;
+      color: $black;
+    } @else if $dark-theme {
+      background-color:$black;
+      color:$lightgrey;
+    } @else {
+      //Default theme
+      background-color: $lightgrey;
+      color: $black;
+    }
+  }
+
+  $color-list: red, green, yellow, blue;

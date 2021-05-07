@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.section{
+    margin-top: 10px;
+    .section__list{
+     
+        .section__list-item{
+            overflow-y:auto ;
+            .left{
+                 width: 50%;
+                float:left;
+                padding: 20px;
+                .name{
+                    font-weight: bold;
+                }
+            }
+            .right{
+                width: 50%;
+                float: right;
+                padding: 20px;
+                .name{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    @include centrado(10px,80%);
+}
+
+@include reset();
+
+
+
+
+
+@for $i from 1 to 5 {
+    .section-title-#{$i} {
+      color: colorsectiontitle($i);
+    }
+}
+
+
+.full-name{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.section__title{
+    border-bottom: 2px solid $black;
+}
+
+.separator{
+    border-left: 2px solid $black;
+    margin: 5px;
+}
