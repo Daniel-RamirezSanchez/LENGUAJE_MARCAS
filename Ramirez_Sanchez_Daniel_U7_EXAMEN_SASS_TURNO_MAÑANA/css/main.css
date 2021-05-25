@@ -1,0 +1,82 @@
+.container {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.table {
+  width: 33%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.table .header {
+  overflow-y: auto;
+  font-size: 2.5em;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+.table .header p {
+  width: 33%;
+  float: left;
+}
+.table .row {
+  overflow-y: auto;
+}
+.table .row p {
+  width: 33%;
+  float: left;
+  margin: 0px;
+  padding: 5px;
+}
+
+.row p:hover {
+  background-color: red;
+  color: #f0f0f0;
+}
+
+.sidebar {
+  float: left;
+  width: 8%;
+  height: 200px;
+  color: black;
+  background-color: white;
+  border-color: green;
+  border: 1px solid green;
+  float: left;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+}
+.sidebar img {
+  width: 30%;
+}
+.sidebar nav {
+  text-align: left;
+}
+.sidebar nav ul {
+  list-style: none;
+}
+.sidebar nav ul li a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: blue;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-y: auto;
+}
+
+.container {
+  margin: 10px auto;
+  width: 75%;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+/*# sourceMappingURL=main.css.map */
